@@ -1,116 +1,127 @@
-# Python-Learning-Journey
-A collection of Python projects, exercises, and practice codes created during my learning journey. From basic programs to small projects, this repo tracks my progress, experiments, and understanding of Python concepts, loops, conditionals, data structures, and algorithms.
-🐍 Python Learning Journey
+# Python Learning Journey 🐍
 
-Welcome to my repository documenting my complete journey of learning Python — from my first if statement to writing recursive functions.
-Every program here represents a step in improving my logical thinking, problem-solving, and understanding of programming fundamentals.
+A comprehensive collection of Python projects, exercises, and practice programs created during my learning journey. This repository tracks my progress from basic syntax to advanced concepts, recursive algorithms, and problem-solving logic.
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+Each program represents a step in improving my logical thinking, coding skills, and understanding of Python fundamentals.
 
-🚀 About This Repository
+---
 
-This repo contains all the Python programs I’ve written while learning the language.
-I started from the basics and gradually moved toward recursion, pattern printing, and logical programs like palindrome, Armstrong, and converters.
+## 🚀 About This Repository
 
-These programs may look simple — but every one of them helped me strengthen a specific concept.
+This repo contains **all Python programs I’ve written**, starting from the basics and gradually moving toward:
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+- Recursion and advanced logic  
+- Pattern printing and mathematical programs  
+- String manipulation and conversions  
+- Mini-projects combining multiple concepts  
+
+Every program may seem simple, but each one helped strengthen a specific concept or problem-solving skill.
+
+---
+
+## 📁 Folder Structure
 
 | Folder / File            | Description                                                                   |
 | ------------------------ | ----------------------------------------------------------------------------- |
-| **Basics/**              | Programs using simple loops, conditionals, and basic logic                    |
-| **String_Programs/**     | String-based problems like palindrome checks, vowel counts, and space removal |
-| **Pattern_Programs/**    | Star and number pattern logic                                                 |
-| **Conversion_Programs/** | Binary ↔ Decimal, Digits → Words                                              |
-| **Recursion/**           | Programs that use recursion (Factorial, Fibonacci, etc.)                      |
-| **Miscellaneous/**       | Other interesting logic-based mini programs                                   |
+| **Basics/**              | Programs using loops, conditionals, variables, and basic logic               |
+| **String_Programs/**     | String manipulation, palindrome checks, vowel/consonant counts, formatting   |
+| **Pattern_Programs/**    | Star, number, and character pattern logic                                     |
+| **Conversion_Programs/** | Binary ↔ Decimal, Digits → Words, Celsius ↔ Fahrenheit                        |
+| **Recursion/**           | Recursive programs like factorial, Fibonacci, sum of digits                  |
+| **Problem_Solving/**     | Logic-based problems, number theory, and algorithmic challenges              |
+| **Mini_Projects/**       | Small programs combining multiple concepts (e.g., calculator, games)         |
+| **Miscellaneous/**       | Other interesting or experimental programs                                    |
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-🧠 Topics Covered
+## 🧠 Topics Covered
 
-	•	✅ Variables, input/output
-	•	✅ Conditional statements (if-else)
-	•	✅ Loops (for, while)
-	•	✅ Functions and parameters
-	•	✅ Recursion
-	•	✅ String manipulation
-	•	✅ Basic math & logic-based problems
-	•	✅ Code structuring and modular thinking
+- ✅ Variables, input/output  
+- ✅ Conditional statements (if-else, nested conditions)  
+- ✅ Loops (for, while, nested loops)  
+- ✅ Functions, parameters, return values  
+- ✅ Recursion (factorial, Fibonacci, sum of digits)  
+- ✅ String manipulation and formatting  
+- ✅ Lists, dictionaries, sets, tuples  
+- ✅ File handling and basic I/O operations  
+- ✅ Math & logic-based problems (palindrome, Armstrong, prime, etc.)  
+- ✅ Problem-solving and algorithmic thinking  
+- ✅ Basic modular programming and code structuring  
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-💡 Sample Programs
+## 💡 Sample Programs
 
-	•	factorial_recursive.py → Finds factorial using recursion
-	•	fibonacci_recursive.py → Prints Fibonacci series recursively
-	•	binary_to_decimal.py → Converts binary number to decimal
-	•	digit_to_word.py → Converts numbers into words
-	•	palindrome_checker.py → Checks if a string or number is a palindrome
-	•	armstrong_checker.py → Detects if a number is an Armstrong number
+- `factorial_recursive.py` → Factorial using recursion  
+- `fibonacci_recursive.py` → Fibonacci series recursively  
+- `binary_to_decimal.py` → Converts binary to decimal  
+- `digit_to_word.py` → Converts numbers to words  
+- `palindrome_checker.py` → Checks if a string or number is a palindrome  
+- `armstrong_checker.py` → Detects Armstrong numbers  
+- `prime_checker.py` → Checks if a number is prime  
+- `calculator.py` → Mini project implementing basic arithmetic operations  
+- `tic_tac_toe.py` → Simple console-based game  
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-🎯 My Goal
+## 🎯 My Goal
 
-To build a strong foundation in Python by writing clean, logical, and well-structured code from scratch — without relying on shortcuts.
-Each program I push to this repo helps me practice logical thinking and prepare for Data Structures and Algorithms (DSA).
+To **build a strong Python foundation** by writing clean, logical, and well-structured code from scratch.  
 
-_________________________________________________________________________________________________________________________________________________________________________________________
-🔜 Next Steps
+Each program pushed here is a step toward:
 
-Learn Data Structures & Algorithms (DSA) in depth
+- Improving logical thinking  
+- Mastering problem-solving techniques  
+- Preparing for Data Structures & Algorithms (DSA)  
 
-Practice problem-solving on LeetCode / HackerRank
+---
 
-Start exploring Python libraries like math, os, and random
+## 🔜 Next Steps
 
-Build mini-projects using the concepts learned
+- Master **Data Structures & Algorithms (DSA)**  
+- Solve coding challenges on **LeetCode / HackerRank**  
+- Explore Python libraries: `math`, `random`, `os`, `datetime`  
+- Build mini-projects: calculators, games, file manipulators  
+- Learn **OOP (classes, objects, inheritance, encapsulation)**  
+- Work with **modules, packages, and file handling**  
 
-Learn about file handling, modules, and OOP (Object-Oriented Programming)
+---
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+## 🧭 Why I Maintain This Repo
 
-**🧭 Why I Maintain This Repo
+- Track daily growth as a programmer  
+- Build the habit of **version control with Git & GitHub**  
+- Observe how my **logic and code quality improve** over time  
+- Share my learning journey publicly for transparency and accountability  
 
-To track my daily growth as a programmer
+---
 
-To build the habit of version control (Git & GitHub)
+## 🛠️ Technologies Used
 
-To look back and see how my logic and code quality evolve over time
+- **Language:** Python 3.x  
+- **Editor:** VS Code  
+- **Platform:** GitHub  
 
-To make my learning public and transparent
-_________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-🛠️ Technologies Used
+## ⚡ Commit Philosophy
 
-Language: Python 3.x
+Every commit reflects a real learning step: fixing logic, optimizing code, or adding new concepts.  
 
-Editor: VS Code
+**Examples:**
 
-Platform: GitHub
+- `feat:` added recursion for factorial  
+- `fix:` corrected logic in palindrome checker  
+- `docs:` updated README with structure and goals  
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-⚡ Commit Philosophy
+## 🌱 Final Note
 
-Every commit documents a real learning step — whether it’s fixing recursion, optimizing logic, or adding a new concept.
-Examples of my commit style:
+This repository isn’t about perfect code — it’s about **consistent progress and learning**.  
 
-feat: added factorial using recursion  
-fix: corrected logic in palindrome checker  
-docs: improved README with structure and goals  
+If you’re a beginner, explore these files — they’re the building blocks for a **strong programming foundation**.  
 
-_________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-🌱 Final Note
-
-This repository isn’t about perfect code — it’s about consistent progress.
-I’m not aiming to show off; I’m aiming to get better every single day.
-If you’re a beginner like me, feel free to explore these files — they’re the building blocks of a solid programming foundation.
-
-_________________________________________________________________________________________________________________________________________________________________________________________
-
-⭐ Star this repo if you’re also documenting your learning journey — and let’s keep improving together.
-
-_________________________________________________________________________________________________________________________________________________________________________________________
+⭐ Star this repo if you’re documenting your Python learning journey, and let’s keep improving together.
