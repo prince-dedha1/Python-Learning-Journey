@@ -1,92 +1,145 @@
-# 🚢 BattleShip Lite (Python)
+# 🚢 Battleship Lite (Python)
 
-A simple text-based **BattleShip Lite** game built in Python.  
-The player has **3 attempts** to find the hidden ship randomly placed on a **3x3 grid**.
-
----
-
-## 🎮 Game Rules
-
-- The grid is numbered **1 to 9** like this:
-
-1 | 2 | 3
----+---+---
-4 | 5 | 6
----+---+---
-7 | 8 | 9
-
-
-- The ship is hidden in one of these 9 spots.
-- You have **3 attempts** to guess the correct spot.
-- Each wrong guess is marked as `X`.
-- If you find the ship, it’s marked as 🚢.
-- If all attempts are used, the real ship position is revealed.
+A simple yet fun **terminal-based Battleship guessing game** built using Python.  
+Test your luck and logic — can you find the hidden battleship in just **3 attempts**?
 
 ---
 
-## 🧩 Features
+## 🎮 Game Overview
 
-- Random ship placement each round  
-- Input validation for invalid or duplicate guesses  
-- Clean 3x3 board display after every attempt  
-- Option to replay or quit the game  
+**Battleship Lite** is a minimal version of the classic Battleship game designed for beginners learning Python.  
+You play on a **3×3 grid** (positions 1–9), and your goal is to **find the hidden ship** randomly placed by the computer.
 
----
-
-## 🛠️ Requirements
-
-- Python 3.x (any version after 3.6 works)
-- No external libraries required (only `random` is used)
+- You have **3 attempts** to find it.
+- The game shows your **previous guesses** with ❌ marks.
+- If you find the ship — it’s revealed with a 🚢 symbol.
+- After 3 wrong guesses, the ship’s position is revealed.
 
 ---
 
-## ▶️ How to Run
+## 🧠 Features
 
-1. Download or clone this repository  
- ```bash
- git clone https://github.com/<your-username>/BattleShip-Lite.git
+✅ 3×3 grid layout for easy visualization  
+✅ Input validation (handles invalid or duplicate guesses)  
+✅ Random ship placement every round  
+✅ Replayable — play as many rounds as you want  
+✅ Clear grid display and pattern reference  
 
+---
 
-Navigate into the folder
+## 🕹️ How to Play
 
-cd BattleShip-Lite
+1. **Run the program** in any Python terminal:
+   ```bash
+   python battleship_lite.py
+2. Choose whether to start or quit:
+   Do you Want to Play?(Y/N):
+3. If you choose Y, a grid pattern will be shown:
+   ```
+   1  | 2 | 3
+   ---+---+---
+   4  | 5 | 6
+   ---+---+---
+   7  | 8 | 9
+   ```
+4. Guess where the ship might be by entering a number (1–9).  
+   You get 3 total attempts.  
+If you hit: 🚢 appears on that spot.  
+If you miss: ❌ appears.  
+5. After 3 attempts or a win, you can choose to play again or quit.
+-----------------------------------------------------------------------------------------------------------------------------------------
+## 💻 Example Gameplay  
+Do you Want to Play?(Y/N): y  
 
+<-----Battle Ship Lite Game is Started----->  
 
-Run the Python file
-
-python battleship_lite.py
-
-📸 Example Gameplay
-<-----Battle Ship Lite Game is Started----->
-1 | 2 | 3
+```
+1  | 2 | 3
 ---+---+---
-4 | 5 | 6
+4  | 5 | 6
 ---+---+---
-7 | 8 | 9
+7  | 8 | 9
+```
 
-Attempt 1 to find Battle Ship choose b/w (1-9): 4
+Attempt 1 to find Battle Ship choose b/w (1-9): 3  
+Wrong Guess  
 
-Wrong Guess
+```
+_  | _ | X
+---+---+---
 _  | _ | _
 ---+---+---
-X  | _ | _
+_  | _ | _
+```
+
+Attempt 2 to find Battle Ship choose b/w (1-9): 8  
+Wrong Guess  
+
+```
+_  | _ | X
 ---+---+---
 _  | _ | _
+---+---+---
+_  | _ | X
+```
 
-Attempt 2 to find Battle Ship choose b/w (1-9): 7
-You found the Battle Ship at position 7!
+Attempt 3 to find Battle Ship choose b/w (1-9): 5  
+Wrong Guess  
 
-💡 Future Improvements (Optional Ideas)
+All attempt ended! Battle Ship was at 2  
 
-Add levels (3x3 → 5x5)
+```
+_  | 🚢 | X
+---+---+---
+_  | X | _
+---+---+---
+_  | _ | X
 
-Add score tracking or limited lives
+```
+----------------------------------------------------------------------------------------------------------------------------------------
+## 🧩 Code Highlights  
 
-Use emojis or colors to improve terminal visuals
+Randomized ship position using random.randint(1,9)  
 
-Store win/loss history in a file (once you learn file handling)
+Smart input checks with:
+```
+if choice not in all_guesses and (1 <= choice <= 9):
+```
+Exception handling for invalid input:  
+```
+except ValueError:  
+    print("❌ Invalid input. Enter a number between 1 and 9.")  
+```
+----------------------------------------------------------------------------------------------------------------------------------------
+## 🧱 Project Structure  
+```
+Python-Learning-Journey/
+│
+└── Battle Ship Lite Game/
+    ├── battleship_lite.py
+    └── README.md
 
-👨‍💻 Author
+```
+----------------------------------------------------------------------------------------------------------------------------------------
+## 🏗️ Future Improvements  
 
-Prince Dedha
-Learning Python through mini-projects to build strong logic and programming foundation.
+Add difficulty levels (larger grids, more ships)  
+
+Include score tracking across rounds  
+
+Add AI hints (e.g., "You're close!")  
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+## 🧑‍💻 Author  
+
+Prince Dedha  
+Part of my ongoing Python learning journey.  
+Exploring logic-building through fun, small projects.  
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+## 📜 License  
+
+This project is open-source and available under the MIT License.  
+   python battleship_lite.py
